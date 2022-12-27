@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>BEC</projectKey>
+    <exportDate>2022-12-27 23:30:07 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="77453928" key="BEC-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>REBECA SOUTUS ANGELO</createdBy>
+            <createdOn>2022-12-27 02:41:14 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Erro ao fazer login de acesso]]></name>
+            <objective><![CDATA[Permitir que o &nbsp;cliente fa&ccedil;a login utilizando o pr&oacute;prio e-mail ou Facebook.]]></objective>
+            <owner>62d16e7510fcc6f7ae3f0b59</owner>
+            <precondition><![CDATA[Digitar token que enviaremos para o cliente.<br />ou<br />Utilizar senha dispositivo que o cliente estiver utilizando.<br />ou<br />Solicitar que o cliente fa&ccedil;a o cadastro de forma tradicional.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given email de acesso desatualizado
+When o sistema reconhecer estiver com dados atualizados
+Then encaminha-lo para a página de confimação de Usuário]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77454068" key="BEC-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>REBECA SOUTUS ANGELO</createdBy>
+            <createdOn>2022-12-27 03:05:05 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente fornece um CEP que não gera um endereço de correspondência.]]></name>
+            <objective><![CDATA[Ajudar o cliente a preencher os dados.]]></objective>
+            <owner>62d16e7510fcc6f7ae3f0b59</owner>
+            <precondition><![CDATA[Ofertar a op&ccedil;&atilde;o &quot;N&atilde;o sei meu CEP&quot;]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given o CEP do cliente
+And o sistema não processar a informação
+When o cliente quiser consultar o valor do frete
+Then oferecer a opção "Não sei meu CEP"]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77454171" key="BEC-T3" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>REBECA SOUTUS ANGELO</createdBy>
+            <createdOn>2022-12-27 03:39:16 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Quando o cliente esquecer a senha.]]></name>
+            <objective><![CDATA[Ajudar a recuperar ou alterar a senha.]]></objective>
+            <owner>62d16e7510fcc6f7ae3f0b59</owner>
+            <precondition><![CDATA[O cliente precisa tentar fazer login no site ao menos uma vez.<br />ou <br />Errar a senha mais de tr&ecirc;s vezes.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[1.0001.111]]></defaultValue>
+                    <name><![CDATA[Problems?]]></name>
+                </parameter>
+                <parameter index="1">
+                    <defaultValue><![CDATA[25.46.82.97]]></defaultValue>
+                    <name><![CDATA[Change]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente tenta fazer login uma vez e clica no bot&atilde;o de ajuda.]]></description>
+                        <expectedResult><![CDATA[Cliente direcionado para outra p&aacute;gina e incentivado a fazer a autentica&ccedil;&atilde;o de usu&aacute;rio.]]></expectedResult>
+                        <testData><![CDATA[<var>Problems?</var>&nbsp;<br /><br />]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Cliente erra a senha tr&ecirc;s vezes conscecutivas.]]></description>
+                        <expectedResult><![CDATA[Cliente recebe uma mensagem informando que ele <em>excedeu o n&uacute;mero m&aacute;ximo de tentativas</em> e ent&atilde;o &eacute; <em>direcionado para a autentica&ccedil;&atilde;o</em>.]]></expectedResult>
+                        <testData><![CDATA[<var><var>Problems?</var></var>]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Ap&oacute;s a autentica&ccedil;&atilde;o de usu&aacute;rio confirmada como positiva.]]></description>
+                        <expectedResult><![CDATA[Cliente recebe a op&ccedil;&atilde;o de alterar a senha.]]></expectedResult>
+                        <testData><![CDATA[<var>Change</var>&nbsp;<var>Problems?</var>&nbsp;]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="77454499" key="BEC-T4" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>REBECA SOUTUS ANGELO</createdBy>
+            <createdOn>2022-12-27 04:20:46 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja cancelar o pedido feito a menos de 7 dias.]]></name>
+            <objective><![CDATA[Atender a solicita&ccedil;&atilde;o do cliente online.]]></objective>
+            <owner>62d16e7510fcc6f7ae3f0b59</owner>
+            <precondition><![CDATA[O pedido <strong><em>n&atilde;o</em></strong> pode ultrapassar o prazo de <strong>7 dias</strong> ap&oacute;s a confirma&ccedil;&atilde;o da compra pelo site.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[556.448.779]]></defaultValue>
+                    <name><![CDATA[Enquete]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente j&aacute; fez login e solicita cancelamento do item dentro do prazo de 7 dias.]]></description>
+                        <expectedResult><![CDATA[Cliente &eacute; informado se o cancelamento &eacute; procedimento interno ou se ele precisa recusar o pacote que j&aacute; foi enviado.]]></expectedResult>
+                        <testData><![CDATA[<var>Enquete</var> Cliente &eacute; questionado sobre o motivo do cancelamento da compra.<br /><br />]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="77475313" key="BEC-T5" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>REBECA SOUTUS ANGELO</createdBy>
+            <createdOn>2022-12-27 21:04:00 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja cancelar o pedido feito a menos de 7 dias. (clonado)]]></name>
+            <objective><![CDATA[Atender a solicita&ccedil;&atilde;o do cliente online.]]></objective>
+            <owner>62d16e7510fcc6f7ae3f0b59</owner>
+            <precondition><![CDATA[O pedido <strong><em>n&atilde;o</em></strong> pode ultrapassar o prazo de <strong>7 dias</strong> ap&oacute;s a confirma&ccedil;&atilde;o da compra pelo site.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[556.448.779]]></defaultValue>
+                    <name><![CDATA[Enquete]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente j&aacute; fez login e solicita cancelamento do item dentro do prazo de 7 dias.]]></description>
+                        <expectedResult><![CDATA[Cliente &eacute; informado se o cancelamento &eacute; procedimento interno ou se ele precisa recusar o pacote que j&aacute; foi enviado.]]></expectedResult>
+                        <testData><![CDATA[<var>Enquete</var> Cliente &eacute; questionado sobre o motivo do cancelamento da compra.<br /><br />]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="77475698" key="BEC-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>REBECA SOUTUS ANGELO</createdBy>
+            <createdOn>2022-12-27 22:37:33 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cancelamento de compra. Situação 1]]></name>
+            <objective><![CDATA[Atendimento &aacute;gil direto pelo site ou aplicativo.]]></objective>
+            <owner>62d16e7510fcc6f7ae3f0b59</owner>
+            <precondition><![CDATA[Pago com Cart&atilde;o. <br />Compra feita h&aacute; menos de 7 dias.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given cliente desejar cancelar.
+And está dentro do prazo de 7 dias.
+When solicitar pelo site ou aplicativo.
+Then autorizar e solicitar estorno para a instituição financeira.]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77475786" key="BEC-T7" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>REBECA SOUTUS ANGELO</createdBy>
+            <createdOn>2022-12-27 23:18:01 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Solicitar inclusão de Cartão de Crédito em sistema.]]></name>
+            <objective><![CDATA[Automatizar o procedimento e permitir que o cliente utilize mais op&ccedil;&otilde;es de pagamento.]]></objective>
+            <owner>62d16e7510fcc6f7ae3f0b59</owner>
+            <precondition><![CDATA[O cliente pode utilizar no m&aacute;ximo dois cart&otilde;es de cr&eacute;dito para pagar a mesma compra.]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[778.9995.556]]></defaultValue>
+                    <name><![CDATA[Análise com Instituição Finaceira]]></name>
+                </parameter>
+                <parameter index="1">
+                    <defaultValue><![CDATA[2.000.00]]></defaultValue>
+                    <name><![CDATA[Valor superior a R$2.000,00]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente est&aacute; finalizando a conta e percebe que h&aacute; a op&ccedil;&atilde;o de utilizar um segundo cart&atilde;o de cr&eacute;dito para sua compra. Seleciona a op&ccedil;&atilde;o.]]></description>
+                        <expectedResult><![CDATA[O sistema permite a utiliza&ccedil;&atilde;o automaticamente.]]></expectedResult>
+                        <testData><![CDATA[<var>Valor superior a R$2.000,00</var>&nbsp;]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[O cliente aciona uma aba flutuante que solicita os dados do segundo cart&atilde;o de cr&eacute;dito e qual o valor a ser cobrado deste cart&atilde;o.]]></description>
+                        <expectedResult><![CDATA[A institui&ccedil;&atilde;o financeira concede o cr&eacute;dito para compra.]]></expectedResult>
+                        <testData><![CDATA[<var>An&aacute;lise com Institui&ccedil;&atilde;o Finaceira</var>&nbsp;]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

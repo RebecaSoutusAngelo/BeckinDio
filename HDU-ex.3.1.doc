@@ -1,0 +1,321 @@
+Date: Tue, 27 Dec 2022 04:41:35 +0000 (UTC)
+Message-ID: <1449212653.203.1672116095521@82008d490de2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_202_277125308.1672116095521"
+
+------=_Part_202_277125308.1672116095521
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Escrevendo hist=C3=B3rias de usu=C3=A1rio</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Escrevendo hist=C3=B3rias de usu=C3=A1rio</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li><p><strong>Valor: </strong>Quando o usu=C3=A1rio cria um cadastro com l=
+ogin e senha, ele cria uma afinidade e senso de seguran=C3=A7a, o empreendi=
+mento, torna-se refer=C3=AAncia em qualidade, pre=C3=A7o e atendimento.</p>=
+</li>
+<li><p><strong>Narrativa do usu=C3=A1rio:</strong></p></li>
+</ol>
+<p><strong>Como </strong>cliente</p>
+<p><strong>Eu quero </strong>criar cadastro e fazer login</p>
+<p><strong>Para </strong>fazer consultas e compras.</p>
+<p> 3. <strong>Requisitos: </strong></p>
+<ul>
+<li><p>Atores: Cliente</p></li>
+<li><p>Interface: Ver documento em anexo</p></li>
+<li><p>Dados: </p>
+<ul>
+<li><p>Criar banco de dados/tabelas para clientes cadastrados.</p></li>
+<li><p>Gerar no API para integra=C3=A7=C3=A3o no front-end e banco criado.<=
+/p></li>
+<li><p>Cria=C3=A7=C3=A3o com tela de login para permitir que usu=C3=A1rio a=
+cesse a p=C3=A1gina de login e de cadastro de usu=C3=A1rio.</p></li>
+</ul></li>
+<li><p>Plataforma/Ambientes:</p>
+<ul>
+<li><p>Web/Web Mobile</p></li>
+<li><p>Devem ser configurados ambientes e pipelines para desenvolvimento</p=
+>
+<ul>
+<li><p>Homologa=C3=A7=C3=A3o de usu=C3=A1rio</p></li>
+<li><p>Homologa=C3=A7=C3=A3o de QA</p></li>
+<li><p>Produ=C3=A7=C3=A3o</p></li>
+</ul></li>
+</ul></li>
+<li><p>Crit=C3=A9rios de aceite:</p>
+<ul>
+<li><p>Usu=C3=A1rio precisa ter f=C3=A1cil acesso ao bot=C3=A3o de login/ca=
+dastro</p></li>
+<li><p>Ter vis=C3=A3o ampla do site e servi=C3=A7os</p></li>
+<li><p>Idioma</p></li>
+<li><p>Op=C3=A7=C3=A3o de ajuda</p></li>
+<li><p>Ofertas diferenciadas para captar a aten=C3=A7=C3=A3o</p></li>
+</ul></li>
+</ul>
+<p>4. <strong>Cen=C3=A1rios:</strong></p>
+<p><strong>Cen=C3=A1rio 1</strong></p>
+<p><em>Cliente deseja cadastrar-se utilizando E-mail ou Facebook.</em></p>
+<ul>
+<li><p>A op=C3=A7=C3=A3o de cadastro r=C3=A1pida deve ser adequadamente imp=
+lantada no sistema para agilizar o processo.</p></li>
+<li><p>O cliente precisa de um painel amplo e limpo para criar senha exclus=
+iva para o acesso ao site. </p></li>
+<li><p>Os crit=C3=A9rios para a cria=C3=A7=C3=A3o da senha devem estar vis=
+=C3=ADveis para ajudar o cliente.</p></li>
+<li><p>Conforme os crit=C3=A9rios forem respeitados, a cor das letras deve =
+mudar para que o cliente sinta-se ajudado.</p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 2</strong></p>
+<p><em>Cliente j=C3=A1 possui cadastro e solicita o login</em></p>
+<ul>
+<li><p>Cliente =C3=A9 direcionado para uma tela que solicita sua senha.</p>=
+</li>
+<li><p>H=C3=A1 nesta tela, a op=C3=A7=C3=A3o para recupera=C3=A7=C3=A3o de =
+senha =C3=A0 disposi=C3=A7=C3=A3o do cliente.</p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 3</strong></p>
+<p><em>Cliente deseja cadastra-se utilizando m=C3=A9todos tradicionais.</em=
+></p>
+<ul>
+<li><p>Precisa apresentar ao cliente cada item que ele precisa fornecer</p>=
+</li>
+<li><p>As op=C3=A7=C3=B5es devem ser personalizadas conforme o que for conv=
+eniente ao cliente (calend=C3=A1rio/telefone/endere=C3=A7o)</p></li>
+<li><p>Ap=C3=B3s o cadastro das informa=C3=A7=C3=B5es, o cliente =C3=A9 dir=
+ecionado para a cria=C3=A7=C3=A3o de senha. (cen=C3=A1rio 1)</p></li>
+</ul>
+<p></p>
+<p><strong>Em todos os cen=C3=A1rios descritos acima, h=C3=A1 dispon=C3=ADv=
+el para o cliente, um =C3=ADcone com sinal de interroga=C3=A7=C3=A3o, que, =
+ao ser clicado, fornece na mesma p=C3=A1gina, uma r=C3=A1pida explica=C3=A7=
+=C3=A3o para ajuda o cliente ou op=C3=A7=C3=B5es para que o cliente escolha=
+ como deseja ser ajudado.</strong></p>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_202_277125308.1672116095521--

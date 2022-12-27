@@ -1,0 +1,332 @@
+Date: Tue, 27 Dec 2022 07:06:00 +0000 (UTC)
+Message-ID: <619384591.235.1672124760844@221d6beeef3b>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_234_304592274.1672124760843"
+
+------=_Part_234_304592274.1672124760843
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Quando o usu=C3=A1rio erra a senha ap=C3=B3s 3 tentativas</title=
+>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Quando o usu=C3=A1rio erra a senha ap=C3=B3s 3 tentativas</h1>
+    <div class=3D"Section1">
+        <p></p>
+<ul>
+<li><p><strong>Valor: </strong>N=C3=A3o =C3=A9 vantajoso e nem acolhedor pe=
+rmitir que o usu=C3=A1rio se estresse enquanto tenta fazer login no site. E=
+nt=C3=A3o, o ideal seria programar o sistema para ajud=C3=A1-lo se isso aco=
+ntecer.</p></li>
+<li><p><strong>Narrativa do usu=C3=A1rio:</strong></p></li>
+</ul>
+<p><strong>Como </strong>cliente.</p>
+<p><strong>Eu quero </strong>receber ajuda para alterar a minha senha se es=
+tiver com dificuldades para me lembrar dela.</p>
+<p><strong>Para </strong>fazer login com seguran=C3=A7a e comodidade.</p>
+<ul>
+<li><p><strong>Requisitos:</strong></p>
+<ul>
+<li><p>Atores: Cliente</p></li>
+<li><p>Interface: Ver documento em anexo</p></li>
+<li><p>Dados:</p>
+<ul>
+<li><p>Criar banco de dados/tabelas para clientes cadastrados.</p></li>
+<li><p>Gerar no API para integra=C3=A7=C3=A3o no front-end e banco criado.<=
+/p></li>
+<li><p>Cria=C3=A7=C3=A3o com tela de login para permitir que usu=C3=A1rio a=
+cesse a p=C3=A1gina de login e de senha.</p></li>
+<li><p>Cria=C3=A7=C3=A3o de bot=C3=A3o de ajuda =C3=A0 disposi=C3=A7=C3=A3o=
+ do usu=C3=A1rio.</p></li>
+<li><p>Programar o sistema para oferecer ajuda ao cliente caso esteja tenta=
+ndo fazer login e exceda o total de tr=C3=AAs tentativas mal-sucedidas.</p>=
+</li>
+<li><p>Plataforma/Ambientes:</p>
+<ul>
+<li><p>Web/Web Mobile</p></li>
+<li><p>Devem ser configurados ambientes e pipelines para desenvolvimento.</=
+p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Crit=C3=A9rios de aceite:</strong></p>
+<ul>
+<li><p>Usu=C3=A1rio precisa ter f=C3=A1cil acesso ao bot=C3=A3o de login/ca=
+dastro.</p></li>
+<li><p>Usu=C3=A1rio precisa ter visibilidade do quadro de preenchimento de =
+senha.</p></li>
+<li><p>A op=C3=A7=C3=A3o =E2=80=9CEsqueci minha senha=E2=80=9D deve estar s=
+empre =C3=A0 disposi=C3=A7=C3=A3o do usu=C3=A1rio.</p></li>
+<li><p>O cliente deve receber uma mensagem informando que percebemos que el=
+e est=C3=A1 com dificuldades para fazer login.</p></li>
+</ul></li>
+</ul>
+<p></p>
+<ul>
+<li><p><strong>Cen=C3=A1rios:</strong></p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 1</strong></p>
+<p><em>Cliente preenche os dados de login e ap=C3=B3s tr=C3=AAs tentativas =
+n=C3=A3o consegue acessar o site.</em></p>
+<ul>
+<li><p>Os =C3=ADcones da tela sofrer=C3=A3o altera=C3=A7=C3=A3o para direci=
+onar o cliente para outras op=C3=A7=C3=B5es.</p></li>
+<li><p>Quando o cliente aceitar a ajuda, este deve ser direcionado para uma=
+ tela que autenticar=C3=A1 seus dados.</p></li>
+<li><p>O cliente recebe duas ou mais op=C3=A7=C3=B5es de envio de token, co=
+nforme os dados de seu cadastro.</p></li>
+<li><p>O cliente escolhe a op=C3=A7=C3=A3o que encarar como melhor para ele=
+.</p></li>
+<li><p>Ap=C3=B3s a autentica=C3=A7=C3=A3o o cliente recebe a op=C3=A7=C3=A3=
+o de criar uma senha.</p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 2</strong></p>
+<p><em>Cliente erra a senha apenas uma vez e solicita a altera=C3=A7=C3=A3o=
+.</em></p>
+<ul>
+<li><p>O site encaminha o cliente para a p=C3=A1gina de autentica=C3=A7=C3=
+=A3o de usu=C3=A1rio.</p></li>
+<li><p>Ap=C3=B3s a autentica=C3=A7=C3=A3o o cliente recebe a op=C3=A7=C3=A3=
+o de gerar nova senha.</p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 3</strong></p>
+<p><em>Cliente est=C3=A1 gerando uma nova senha e o sistema o auxilia duran=
+te o processo.</em></p>
+<ul>
+<li><p>O sistema apresenta os crit=C3=A9rios para gerar uma senha segura em=
+ formato de checklist.</p></li>
+<li><p>O layout do checklist =C3=A9 alterado conforme o cliente demonstra c=
+umprir com os crit=C3=A9rios.</p></li>
+<li><p>Durante o procedimento, se o cliente n=C3=A3o escrever duas senhas s=
+emelhantes para confirma=C3=A7=C3=A3o, o sistema informar=C3=A1.</p></li>
+<li><p>Quando a senha ideal =C3=A9 gerada, o cliente recebe uma notifica=C3=
+=A7=C3=A3o de confirma=C3=A7=C3=A3o e parabeniza=C3=A7=C3=A3o.</p></li>
+<li><p>O sistema disponibiliza para o cliente um link para fazer login com =
+sua nova senha.</p></li>
+</ul>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_234_304592274.1672124760843--

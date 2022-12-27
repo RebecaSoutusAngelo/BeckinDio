@@ -1,0 +1,327 @@
+Date: Tue, 27 Dec 2022 20:59:48 +0000 (UTC)
+Message-ID: <1631696558.27.1672174788035@774ecc35a8ce>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26_1234422245.1672174788035"
+
+------=_Part_26_1234422245.1672174788035
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Dados de login desatualizados.</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Dados de login desatualizados.</h1>
+    <div class=3D"Section1">
+        <p></p>
+<ul>
+<li><p><strong>Valor: </strong>O cliente receber=C3=A1 ajuda pr=C3=A1tica s=
+e n=C3=A3o conseguir fazer login com seu e-mail ou telefone por estarem des=
+atualizados.</p></li>
+<li><p><strong>Narrativa do usu=C3=A1rio:</strong></p></li>
+</ul>
+<p><strong>Como </strong>cliente.</p>
+<p><strong>Eu quero </strong>receber ajuda para validar o meu acesso.</p>
+<p><strong>Para </strong>navegar no site com meus dados cadastrais atualiza=
+dos.</p>
+<ul>
+<li><p><strong>Requisitos:</strong></p>
+<ul>
+<li><p>Atores: Cliente</p></li>
+<li><p>Interface: Ver documento em anexo</p></li>
+<li><p>Dados:</p>
+<ul>
+<li><p>Criar banco de dados/tabelas para clientes cadastrados.</p></li>
+<li><p>Gerar no API para integra=C3=A7=C3=A3o no front-end e banco criado.<=
+/p></li>
+<li><p>Cria=C3=A7=C3=A3o com tela de login para permitir que usu=C3=A1rio a=
+cesse a p=C3=A1gina de login e de senha.</p></li>
+<li><p>Cria=C3=A7=C3=A3o de bot=C3=A3o de ajuda =C3=A0 disposi=C3=A7=C3=A3o=
+ do usu=C3=A1rio.</p></li>
+<li><p>Programar o sistema para oferecer ajuda ao cliente caso a autentica=
+=C3=A7=C3=A3o autom=C3=A1tica falhe.</p></li>
+<li><p>Disponibilizar perguntas alternativas de autentica=C3=A7=C3=A3o</p><=
+/li>
+<li><p>Caso o cliente n=C3=A3o responda corretamente =C3=A0s perguntas, pro=
+videnciar identificar por foto por e-mail.</p></li>
+<li><p>Plataforma/Ambientes:</p>
+<ul>
+<li><p>Web/Web Mobile</p></li>
+<li><p>Devem ser configurados ambientes e pipelines para desenvolvimento.</=
+p></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Crit=C3=A9rios de aceite:</strong></p>
+<ul>
+<li><p>Usu=C3=A1rio precisa ter f=C3=A1cil acesso ao bot=C3=A3o de login/ca=
+dastro.</p></li>
+<li><p>Usu=C3=A1rio precisa ter visibilidade do quadro de preenchimento e-m=
+ail.</p></li>
+<li><p>O site fornece todo o suporte que o cliente precisa com praticidade =
+e conforto.</p></li>
+<li><p>O cliente deve receber um token pelo m=C3=A9todo escolhido para obte=
+r o acesso.&nbsp;</p></li>
+<li><p>O token precisa de um tempo limite para expirar, para que o cliente =
+n=C3=A3o precise recome=C3=A7ar o processo caso digite errado.</p></li>
+</ul></li>
+<li><p><strong>Cen=C3=A1rios:</strong></p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 1</strong></p>
+<p><em>Cliente preenche os dados de login e mesmo assim n=C3=A3o consegue a=
+cessar o site.</em></p>
+<ul>
+<li><p>Os =C3=ADcones da tela sofrer=C3=A3o altera=C3=A7=C3=A3o para direci=
+onar o cliente para outras op=C3=A7=C3=B5es.</p></li>
+<li><p>O sistema solicitar=C3=A1 o CPF do cliente.</p></li>
+<li><p>Ap=C3=B3s fornecer o n=C3=BAmero do documento, o cliente receber=C3=
+=A1 op=C3=A7=C3=B5es de acesso dispon=C3=ADveis no seu cadastro.</p></li>
+<li><p>O bot=C3=A3o de ajuda estar=C3=A1 =C3=A0 disposi=C3=A7=C3=A3o do usu=
+=C3=A1rio oferecendo alternativas.</p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 2</strong></p>
+<p><em>Cliente clica no bot=C3=A3o de ajuda.</em></p>
+<ul>
+<li><p>H=C3=A1 a op=C3=A7=C3=A3o de ser direcionado para outra regi=C3=A3o =
+do site que ir=C3=A1 ajud=C3=A1-lo.</p></li>
+<li><p>O cliente responder=C3=A1 tr=C3=AAs perguntas que foram formuladas d=
+e acordo com seus dados de cadastro.</p></li>
+<li><p>Se responder todas as perguntas corretamente, cliente poder=C3=A1 al=
+terar um de seus dados (e-mail ou telefone).</p></li>
+<li><p>Ap=C3=B3s preencher o dado, o cliente receber=C3=A1 um token para fi=
+nalizar a autentica=C3=A7=C3=A3o e liberar o acesso.</p></li>
+</ul>
+<p><strong>Cen=C3=A1rio 3</strong></p>
+<p><em>Cliente utiliza o token para acessar o site.</em></p>
+<ul>
+<li><p>O sistema solicita o token.</p></li>
+<li><p>Caso o cliente cometa um erro enquanto estiver digitando, iniciar=C3=
+=A1 um cron=C3=B4metro para utiliza=C3=A7=C3=A3o do token.</p></li>
+<li><p>O sistema disponibiliza para o cliente um link para fazer login com =
+sua nova senha.</p></li>
+<li><p>Ao finalizar os procedimentos o cliente recebe livre acesso ao siste=
+ma, onde poder=C3=A1 fazer altera=C3=A7=C3=A3o de dados e senha.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_26_1234422245.1672174788035--
